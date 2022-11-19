@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skill/job recommendation </title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "8b9064c9-8c68-48cc-819e-e4dc6b7d515c", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "6a310223-1ff7-4f23-963c-14d01af3d9b9", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+
+</head>
+<body>
+    <img src="img1.jpg" alt="">
+    <img src="img2.jpg" alt="">
+    <img src="img3.png" alt="">
+    <img src="img4.jpg" alt="">
+    <img src="img5.jpg" alt="">
+</body>
+</html>
