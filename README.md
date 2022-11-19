@@ -3,9 +3,8 @@
 # Team ID : PNT2022TMID15346
 
 
-# website link- ""
 
-# Demo Link - ""
+# Demo Link - https://drive.google.com/file/d/1NY5RIDaCPVnSJeRY1-0NuN6Ta_S4pKPq/view?usp=share_link
  
 # TEAM MEMBERS:
              -PRAVEEN KUMAR A
